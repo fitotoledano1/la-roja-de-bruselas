@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67CD71661B5C550FED9A4CAF /* Pods_la_roja_de_bruselas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF87D74642DD3E782BB78C6 /* Pods_la_roja_de_bruselas.framework */; };
+		B03768A225E070AE0040E389 /* la_roja_de_bruselasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768A125E070AE0040E389 /* la_roja_de_bruselasApp.swift */; };
+		B03768A425E070AE0040E389 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768A325E070AE0040E389 /* PlayerListView.swift */; };
+		B03768A625E070AF0040E389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03768A525E070AF0040E389 /* Assets.xcassets */; };
+		B03768A925E070AF0040E389 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03768A825E070AF0040E389 /* Preview Assets.xcassets */; };
+		B03768B425E0710C0040E389 /* PlayerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768B225E0710C0040E389 /* PlayerListViewModel.swift */; };
+		B03768B825E071110040E389 /* PlayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768B725E071110040E389 /* PlayerInfoView.swift */; };
+		B03768BB25E071150040E389 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768BA25E071150040E389 /* Constants.swift */; };
+		B03768BE25E071250040E389 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768BD25E071250040E389 /* Player.swift */; };
+		B04B0D7825E0722A00357BEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B0D7725E0722A00357BEF /* NetworkManager.swift */; };
+		B04B0DA625E0792600357BEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B04B0DA525E0792600357BEF /* GoogleService-Info.plist */; };
+		B0DEE7B025E08284007608F5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEE7AF25E08284007608F5 /* ImageLoader.swift */; };
+		B0DEE7B325E082AA007608F5 /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047C0E368EB6A7B4FEF6A633 /* Pods-la-roja-de-bruselas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-la-roja-de-bruselas.release.xcconfig"; path = "Target Support Files/Pods-la-roja-de-bruselas/Pods-la-roja-de-bruselas.release.xcconfig"; sourceTree = "<group>"; };
+		228F19AA2D428A5A61CE7F73 /* Pods-la-roja-de-bruselas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-la-roja-de-bruselas.debug.xcconfig"; path = "Target Support Files/Pods-la-roja-de-bruselas/Pods-la-roja-de-bruselas.debug.xcconfig"; sourceTree = "<group>"; };
+		B037689E25E070AE0040E389 /* la-roja-de-bruselas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "la-roja-de-bruselas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03768A125E070AE0040E389 /* la_roja_de_bruselasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = la_roja_de_bruselasApp.swift; sourceTree = "<group>"; };
+		B03768A325E070AE0040E389 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		B03768A525E070AF0040E389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B03768A825E070AF0040E389 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B03768AA25E070AF0040E389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03768B225E0710C0040E389 /* PlayerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerListViewModel.swift; sourceTree = "<group>"; };
+		B03768B725E071110040E389 /* PlayerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInfoView.swift; sourceTree = "<group>"; };
+		B03768BA25E071150040E389 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B03768BD25E071250040E389 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B04B0D7725E0722A00357BEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B04B0DA525E0792600357BEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0DEE7AF25E08284007608F5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithURL.swift; sourceTree = "<group>"; };
+		EAF87D74642DD3E782BB78C6 /* Pods_la_roja_de_bruselas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_la_roja_de_bruselas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B037689B25E070AE0040E389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CD71661B5C550FED9A4CAF /* Pods_la_roja_de_bruselas.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E2E73F5FC76867067F6E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF87D74642DD3E782BB78C6 /* Pods_la_roja_de_bruselas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ED83696FA8C162632EC205D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				228F19AA2D428A5A61CE7F73 /* Pods-la-roja-de-bruselas.debug.xcconfig */,
+				047C0E368EB6A7B4FEF6A633 /* Pods-la-roja-de-bruselas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B037689525E070AE0040E389 = {
+			isa = PBXGroup;
+			children = (
+				B03768A025E070AE0040E389 /* la-roja-de-bruselas */,
+				B037689F25E070AE0040E389 /* Products */,
+				3ED83696FA8C162632EC205D /* Pods */,
+				31E2E73F5FC76867067F6E74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B037689F25E070AE0040E389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B037689E25E070AE0040E389 /* la-roja-de-bruselas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B03768A025E070AE0040E389 /* la-roja-de-bruselas */ = {
+			isa = PBXGroup;
+			children = (
+				B03768AA25E070AF0040E389 /* Info.plist */,
+				B04B0DA525E0792600357BEF /* GoogleService-Info.plist */,
+				B03768A125E070AE0040E389 /* la_roja_de_bruselasApp.swift */,
+				B03768A525E070AF0040E389 /* Assets.xcassets */,
+				B04B0D7025E071DC00357BEF /* Helpers */,
+				B04B0D7625E0721F00357BEF /* Managers */,
+				B04B0D7225E071E100357BEF /* Models */,
+				B03768C025E071440040E389 /* PlayerList */,
+				B03768A725E070AF0040E389 /* Preview Content */,
+			);
+			path = "la-roja-de-bruselas";
+			sourceTree = "<group>";
+		};
+		B03768A725E070AF0040E389 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B03768A825E070AF0040E389 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B03768C025E071440040E389 /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				B03768A325E070AE0040E389 /* PlayerListView.swift */,
+				B03768B225E0710C0040E389 /* PlayerListViewModel.swift */,
+				B03768B725E071110040E389 /* PlayerInfoView.swift */,
+			);
+			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		B04B0D7025E071DC00357BEF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */,
+				B03768BA25E071150040E389 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B04B0D7225E071E100357BEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B03768BD25E071250040E389 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B04B0D7625E0721F00357BEF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B04B0D7725E0722A00357BEF /* NetworkManager.swift */,
+				B0DEE7AF25E08284007608F5 /* ImageLoader.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B037689D25E070AE0040E389 /* la-roja-de-bruselas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03768AD25E070AF0040E389 /* Build configuration list for PBXNativeTarget "la-roja-de-bruselas" */;
+			buildPhases = (
+				38D5D82B076D6BD0455898D6 /* [CP] Check Pods Manifest.lock */,
+				B037689A25E070AE0040E389 /* Sources */,
+				B037689B25E070AE0040E389 /* Frameworks */,
+				B037689C25E070AE0040E389 /* Resources */,
+				4E4CD65545437237E8F5B528 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "la-roja-de-bruselas";
+			productName = "la-roja-de-bruselas";
+			productReference = B037689E25E070AE0040E389 /* la-roja-de-bruselas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B037689625E070AE0040E389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B037689D25E070AE0040E389 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B037689925E070AE0040E389 /* Build configuration list for PBXProject "la-roja-de-bruselas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B037689525E070AE0040E389;
+			productRefGroup = B037689F25E070AE0040E389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B037689D25E070AE0040E389 /* la-roja-de-bruselas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B037689C25E070AE0040E389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03768A925E070AF0040E389 /* Preview Assets.xcassets in Resources */,
+				B03768A625E070AF0040E389 /* Assets.xcassets in Resources */,
+				B04B0DA625E0792600357BEF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38D5D82B076D6BD0455898D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-la-roja-de-bruselas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4CD65545437237E8F5B528 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-la-roja-de-bruselas/Pods-la-roja-de-bruselas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-la-roja-de-bruselas/Pods-la-roja-de-bruselas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-la-roja-de-bruselas/Pods-la-roja-de-bruselas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B037689A25E070AE0040E389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03768A425E070AE0040E389 /* PlayerListView.swift in Sources */,
+				B03768B825E071110040E389 /* PlayerInfoView.swift in Sources */,
+				B03768A225E070AE0040E389 /* la_roja_de_bruselasApp.swift in Sources */,
+				B04B0D7825E0722A00357BEF /* NetworkManager.swift in Sources */,
+				B0DEE7B025E08284007608F5 /* ImageLoader.swift in Sources */,
+				B03768BE25E071250040E389 /* Player.swift in Sources */,
+				B03768B425E0710C0040E389 /* PlayerListViewModel.swift in Sources */,
+				B03768BB25E071150040E389 /* Constants.swift in Sources */,
+				B0DEE7B325E082AA007608F5 /* ImageWithURL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B03768AB25E070AF0040E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B03768AC25E070AF0040E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B03768AE25E070AF0040E389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228F19AA2D428A5A61CE7F73 /* Pods-la-roja-de-bruselas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"la-roja-de-bruselas/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QX4YC42U8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "la-roja-de-bruselas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fitotoledano.la-roja-de-bruselas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B03768AF25E070AF0040E389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047C0E368EB6A7B4FEF6A633 /* Pods-la-roja-de-bruselas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"la-roja-de-bruselas/Preview Content\"";
+				DEVELOPMENT_TEAM = 7QX4YC42U8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "la-roja-de-bruselas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fitotoledano.la-roja-de-bruselas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B037689925E070AE0040E389 /* Build configuration list for PBXProject "la-roja-de-bruselas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03768AB25E070AF0040E389 /* Debug */,
+				B03768AC25E070AF0040E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03768AD25E070AF0040E389 /* Build configuration list for PBXNativeTarget "la-roja-de-bruselas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B03768AE25E070AF0040E389 /* Debug */,
+				B03768AF25E070AF0040E389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B037689625E070AE0040E389 /* Project object */;
+}
