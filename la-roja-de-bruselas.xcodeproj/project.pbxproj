@@ -18,6 +18,7 @@
 		B03768BE25E071250040E389 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03768BD25E071250040E389 /* Player.swift */; };
 		B04B0D7825E0722A00357BEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04B0D7725E0722A00357BEF /* NetworkManager.swift */; };
 		B04B0DA625E0792600357BEF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B04B0DA525E0792600357BEF /* GoogleService-Info.plist */; };
+		B0B3C9D825E17D2B0089F912 /* LRDBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3C9D725E17D2B0089F912 /* LRDBError.swift */; };
 		B0DEE7B025E08284007608F5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEE7AF25E08284007608F5 /* ImageLoader.swift */; };
 		B0DEE7B325E082AA007608F5 /* ImageWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		B03768BD25E071250040E389 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B04B0D7725E0722A00357BEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B04B0DA525E0792600357BEF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0B3C9D725E17D2B0089F912 /* LRDBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRDBError.swift; sourceTree = "<group>"; };
 		B0DEE7AF25E08284007608F5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithURL.swift; sourceTree = "<group>"; };
 		EAF87D74642DD3E782BB78C6 /* Pods_la_roja_de_bruselas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_la_roja_de_bruselas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 			children = (
 				B0DEE7B225E082AA007608F5 /* ImageWithURL.swift */,
 				B03768BA25E071150040E389 /* Constants.swift */,
+				B0B3C9D725E17D2B0089F912 /* LRDBError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				B03768A425E070AE0040E389 /* PlayerListView.swift in Sources */,
 				B03768B825E071110040E389 /* PlayerInfoView.swift in Sources */,
+				B0B3C9D825E17D2B0089F912 /* LRDBError.swift in Sources */,
 				B03768A225E070AE0040E389 /* la_roja_de_bruselasApp.swift in Sources */,
 				B04B0D7825E0722A00357BEF /* NetworkManager.swift in Sources */,
 				B0DEE7B025E08284007608F5 /* ImageLoader.swift in Sources */,

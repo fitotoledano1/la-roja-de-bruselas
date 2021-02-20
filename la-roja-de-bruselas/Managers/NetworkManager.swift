@@ -9,11 +9,6 @@ import Foundation
 import Firebase
 import FirebaseFirestoreSwift
 
-enum LRDBError: String, Error {
-    case unableToComplete = "Something wrong happened. Please, try again."
-    case invalidData = "The data received from the server is invalid. Please, contact Fito"
-}
-
 final class NetworkManager {
     
     private init() {}
