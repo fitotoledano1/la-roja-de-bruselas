@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1708674304-mmintu9e4tkgkptshnb2b6o8p4gopoi0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1708674304-mmintu9e4tkgkptshnb2b6o8p4gopoi0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDE6enLg-XIHxp4uC9joQX-PHn5s77DeL8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1708674304</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fitotoledano.La-Roja-de-Bruselas</string>
+	<key>PROJECT_ID</key>
+	<string>la-roja-de-bruselas</string>
+	<key>STORAGE_BUCKET</key>
+	<string>la-roja-de-bruselas.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1708674304:ios:dccade76b26f6d5b2e77e5</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_La_Roja_de_Bruselas {
+  umbrella header "Pods-La Roja de Bruselas-umbrella.h"
+
+  export *
+  module * { export * }
+}
