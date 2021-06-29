@@ -7,19 +7,22 @@
 
 import SwiftUI
 
-
-
-
 struct PlayerList: View {
     
+    @StateObject var lockerRoom = LockerRoom()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(lockerRoom.teams) { team in
+            Text(team.name)
+        }
     }
 }
 
 struct PlayerList_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerList()
+        NavigationView {
+            PlayerList()
+                .navigationTitle("Players")
+        }
     }
 }

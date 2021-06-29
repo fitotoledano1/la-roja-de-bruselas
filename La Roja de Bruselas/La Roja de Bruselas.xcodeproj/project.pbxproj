@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -58,7 +58,6 @@
 				7979AA147A8390B2186257BF /* Pods-La Roja de Bruselas.debug.xcconfig */,
 				9EEA21D1A6C9AABF5B649721 /* Pods-La Roja de Bruselas.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,12 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				B065300C268B455F00AACF73 /* GoogleService-Info.plist */,
-				B0653009268B44B600AACF73 /* Model */,
-				B0652FF5268B42FA00AACF73 /* La_Roja_de_BruselasApp.swift */,
-				B0653006268B432E00AACF73 /* Views */,
-				B0652FF9268B42FB00AACF73 /* Assets.xcassets */,
 				B0652FFE268B42FB00AACF73 /* Info.plist */,
+				B0652FF5268B42FA00AACF73 /* La_Roja_de_BruselasApp.swift */,
+				B0652FF9268B42FB00AACF73 /* Assets.xcassets */,
+				B0653009268B44B600AACF73 /* Model */,
 				B0652FFB268B42FB00AACF73 /* Preview Content */,
+				B0653006268B432E00AACF73 /* Views */,
 			);
 			path = "La Roja de Bruselas";
 			sourceTree = "<group>";
@@ -106,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				B0652FF7268B42FA00AACF73 /* ContentView.swift */,
-				B0653007268B433900AACF73 /* PlayerList.swift */,
+				B0FC5168268B482300009CBA /* PlayerList */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +116,14 @@
 				B065300A268B44C900AACF73 /* Team.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B0FC5168268B482300009CBA /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				B0653007268B433900AACF73 /* PlayerList.swift */,
+			);
+			path = PlayerList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
