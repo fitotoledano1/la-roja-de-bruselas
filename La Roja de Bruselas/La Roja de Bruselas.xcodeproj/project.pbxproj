@@ -15,6 +15,9 @@
 		B0653008268B433900AACF73 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0653007268B433900AACF73 /* PlayerList.swift */; };
 		B065300B268B44CA00AACF73 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065300A268B44C900AACF73 /* Team.swift */; };
 		B065300D268B455F00AACF73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B065300C268B455F00AACF73 /* GoogleService-Info.plist */; };
+		B067F3A4268BBC3600928147 /* TeamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B067F3A3268BBC3600928147 /* TeamRepository.swift */; };
+		B067F3A6268BBF6000928147 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B067F3A5268BBF6000928147 /* TeamList.swift */; };
+		B067F3A8268BBF8E00928147 /* Competition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B067F3A7268BBF8E00928147 /* Competition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		B0653007268B433900AACF73 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 		B065300A268B44C900AACF73 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		B065300C268B455F00AACF73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B067F3A3268BBC3600928147 /* TeamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRepository.swift; sourceTree = "<group>"; };
+		B067F3A5268BBF6000928147 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		B067F3A7268BBF8E00928147 /* Competition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		B0652FF4268B42FA00AACF73 /* La Roja de Bruselas */ = {
 			isa = PBXGroup;
 			children = (
+				B067F3A2268BBC2300928147 /* Repositories */,
 				B065300C268B455F00AACF73 /* GoogleService-Info.plist */,
 				B0652FFE268B42FB00AACF73 /* Info.plist */,
 				B0652FF5268B42FA00AACF73 /* La_Roja_de_BruselasApp.swift */,
@@ -106,6 +113,7 @@
 			children = (
 				B0652FF7268B42FA00AACF73 /* ContentView.swift */,
 				B0FC5168268B482300009CBA /* PlayerList */,
+				B067F3A5268BBF6000928147 /* TeamList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,8 +122,17 @@
 			isa = PBXGroup;
 			children = (
 				B065300A268B44C900AACF73 /* Team.swift */,
+				B067F3A7268BBF8E00928147 /* Competition.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B067F3A2268BBC2300928147 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B067F3A3268BBC3600928147 /* TeamRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		B0FC5168268B482300009CBA /* PlayerList */ = {
@@ -242,7 +259,10 @@
 			files = (
 				B065300B268B44CA00AACF73 /* Team.swift in Sources */,
 				B0652FF8268B42FA00AACF73 /* ContentView.swift in Sources */,
+				B067F3A6268BBF6000928147 /* TeamList.swift in Sources */,
 				B0653008268B433900AACF73 /* PlayerList.swift in Sources */,
+				B067F3A4268BBC3600928147 /* TeamRepository.swift in Sources */,
+				B067F3A8268BBF8E00928147 /* Competition.swift in Sources */,
 				B0652FF6268B42FA00AACF73 /* La_Roja_de_BruselasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

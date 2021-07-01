@@ -109,12 +109,12 @@ final class LockerRoom: ObservableObject {
         /// La Roja de Bruselas ID
         /// 4gZYFu1Slz4iOGPiH9Ci
         
-        for player in roster {
-            do {
-                let _ = try? db.collection("teams").document("4gZYFu1Slz4iOGPiH9Ci").collection("roster").addDocument(from: player)
-            } catch {
-                print(error)
-            }
-        }
+//        for player in roster {
+//            do {
+//                let _ = try? db.collection("teams").document("4gZYFu1Slz4iOGPiH9Ci").collection("roster").addDocument(from: player)
+//            } catch {
+//                print(error)
+//            }
+//        }
     }
 }
